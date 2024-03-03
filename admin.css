@@ -1,0 +1,62 @@
+body{
+   background-color: rgba(0, 0, 0, 0.926);
+}
+ .login-data{
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(#2a80dd,#224263) ;
+    border-radius: 10px;
+    box-shadow: 0px 10px 69px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+    position: relative;
+    margin: 100px;
+ }
+
+ .cred{
+    width:300px;
+    height: 40px;
+    background: none; 
+    border: none; 
+    border-bottom: 3px solid rgba(255, 255, 255, 0.497); font-size: 18px; 
+    color: #fff; 
+    outline: none; 
+    position: relative;  
+    margin-top: 10px;
+  }
+  .login-data form input::placeholder{
+    color: rgba(255, 255, 255, 0.482);
+  }
+  .btnbase{
+   width: 150px; 
+   height: 45px; 
+   font-size: 21px; 
+   position: relative; 
+   float: right; 
+   left: -50px; 
+   box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1); 
+   color: #fff;
+    font-family: 'Roboto', sans-serif; 
+   bottom: -100px; 
+   border: none; 
+   border-radius: 5px; 
+   background-color: #277edb;
+   cursor: pointer;
+ }
+ #logbtn{
+   width: 150px; 
+   height: 45px; 
+   border: none; 
+   border-radius: 5px; 
+   background-color: #277edb;
+   cursor: pointer;
+   margin-top: 40px;
+   font-size: 21px; 
+   position: relative;
+   box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1); 
+   color: #fff;
+    font-family: 'Roboto', sans-serif;  
+ }
+ .logbtn:hover{
+   box-shadow: 0px 0px 20px #52A6FF ;
+   letter-spacing: 2px;
+}
+  
